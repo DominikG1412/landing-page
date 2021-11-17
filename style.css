@@ -98,11 +98,12 @@ html{
     justify-content: flex-start;
     align-items: center;
     gap: 35px;
+    margin-right: 20px;
 }
 
 .navli1{
     list-style: none;
-    margin-left: 150px;
+    margin-left: 120px;
 }
 
 .navli2{
@@ -119,10 +120,12 @@ html{
     display: flex;
     justify-content: center;
     align-items: stretch;
+    flex-wrap: wrap;
 }
 
 .section1all{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .section1part1{
@@ -132,6 +135,7 @@ html{
     justify-content: center;
     align-items: flex-start;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .section1part1text{
@@ -209,7 +213,7 @@ margin-left: 30%;
 }
 
 .section3{
-    height: 300px;
+    min-height: 300px;
     display: flex;
     gap: 20px;
     flex-direction: column;
